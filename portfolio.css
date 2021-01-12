@@ -1,0 +1,581 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #f3eef4;
+  font-family: "Raleway", sans-serif;
+  background-color: #d9d8d4;
+  background-image: url(/pic.foulio.jpg);
+  background: local;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+}
+
+.Header {
+  background-image: url(/cumputer.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.Header-main {
+  width: 50%;
+  max-width: 400px;
+  position: absolute;
+  top: 20vh;
+  right: 0;
+}
+
+.Header-mainTitle {
+  background-color: skyblue;
+  text-align: right;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.Header-icon {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 43px;
+  height: 43px;
+  padding: 0;
+}
+
+.Header-mainDescription {
+  padding: 10px;
+  line-height: 150%;
+  background-color: rgba(51, 51, 51, 0.4);
+  border-radius: 0 0 0 20px;
+}
+
+.Navbar {
+  background-color: rgba(51, 51, 51, 0.4);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 18vh;
+  border-top: 1px solid rgba(179, 179, 179, 0.5);
+  border-bottom: 1px solid rgba(179, 179, 179, 0.5);
+}
+
+.Navbar-list {
+  list-style: none;
+  text-align: center;
+  font-size: 0;
+  height: 18vh;
+}
+
+.Navbar-listItem {
+  display: inline-block;
+  width: 33.33%;
+  height: 100%;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-left: 1px solid rgba(179, 179, 179, 0.4);
+}
+
+.Navbar-listItem:last-child {
+  border-right: 1px solid rgba(179, 179, 179, 0.4);
+}
+
+.Navbar-icon {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: block;
+  width: 45px;
+  height: 45px;
+  padding: 0;
+  margin: 0 auto 10px auto;
+}
+
+.Icon-1 {
+  background-image: url(https://res.cloudinary.com/dcqva8tnq/image/upload/v1494096416/profile_mktt86.png);
+}
+
+.Icon-2 {
+  background-image: url(https://res.cloudinary.com/dcqva8tnq/image/upload/v1494096416/gallery_csh9ws.png);
+}
+
+.Icon-3 {
+  background-image: url(https://res.cloudinary.com/dcqva8tnq/image/upload/v1494096416/speech-bubble_ls7yr6.png);
+}
+
+.Navbar-link {
+  text-decoration: none;
+  color: #f3eef4;
+  width: 100%;
+  display: block;
+  width: 100%;
+  height: 15vh;
+  padding-top: 3vh;
+}
+
+.AboutMe {
+  color: #575652;
+  width: 100%;
+}
+
+.AboutMe-title {
+  text-align: center;
+  text-transform: uppercase;
+  color: skyblue;
+  font-size: 3em;
+  margin: 80px 0;
+}
+
+.AboutMe-description {
+  text-align: center;
+  margin: 0 auto 80px auto;
+  width: 95%;
+  max-width: 1000px;
+}
+
+.Bracket {
+  color: #f1f1f1;
+}
+
+.AboutMe-boxOne {
+  background-image: url(/cumputer.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  z-index: -2;
+}
+
+.AboutMe-boxOne::before {
+  display: block;
+  position: absolute;
+  background-color: skyblue 100%;
+  width: 100%;
+  content: "";
+  z-index: -1;
+}
+
+.AboutMe-firstSection {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.AboutMe-imageBorder {
+  margin: 30px 0;
+  padding: 10px;
+  background-color: #d9d8d4;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.AboutMe-image {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+}
+
+.AboutMe-list {
+  list-style: none;
+  color: #f3eef4;
+  padding-bottom: 20px;
+}
+
+.AboutMe-listItem {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.AboutMe-listSpan {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.AboutMe-boxTwo {
+  background-image: url(https://res.cloudinary.com/dcqva8tnq/image/upload/v1494152482/aga-putra-124580_kq0o0i.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+  height: 344px;
+  position: relative;
+  color: skyblue;
+}
+
+.AboutMe-secondSection {
+  width: 90%;
+  max-width: 800px;
+  height: auto;
+  position: absolute;
+  background-color: rgba(51, 51, 51, 0.6);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.AboutMe-tweetImage {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 45px;
+  height: 45px;
+  display: block;
+  margin: 10px auto 20px auto;
+  border: none;
+  color: skyblue;
+}
+
+.AboutMe-tweetDescription {
+  width: 100%;
+  color: #f3eef4;
+  text-transform: uppercase;
+  margin: 0 10px 10px 10px;
+  font-size: 0.9em;
+}
+
+.AboutMe-tweetSpan {
+  color: skyblue;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.Portfolio-list {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.Portfolio-listItem {
+  background-color: #f1f1f1;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.Portfolio-image {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.Portfolio-itemTitle {
+  text-transform: uppercase;
+  color: skyblue;
+  padding: 10px;
+}
+
+.Portfolio-description {
+  padding: 5px 0 15px 0;
+}
+
+.Portfolio-skillsList {
+  list-style: none;
+  padding: 10px;
+  width: 90%;
+  margin: 0 auto;
+  color: skyblue;
+  text-align: center;
+}
+
+.Portfolio-skillsItem {
+  margin: 20px;
+  background-color: rgba(243, 242, 242, 0.8);
+  border-radius: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.Portfolio-skillsImage {
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.Portfolio-skillsTitle {
+  margin: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.Contact-formSection {
+  background-image: url(/cumputer.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+.Contact-formSection::before {
+  display: block;
+  position: absolute;
+  background-color: skyblue;
+  height: 100%;
+  width: 100%;
+  content: "";
+}
+
+.Contact-form {
+  padding: 20px;
+}
+
+.Contact-input {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%;
+  resize: none;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 9999;
+}
+
+.Contact-input:focus {
+  border-color: rgba(66, 17, 10, 0.8);
+  outline: 0 none;
+}
+
+.Contact-button {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: #f3eef4;
+  background-color: transparent;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 9999;
+}
+
+.Contact-button:focus {
+  border-color: rgba(66, 17, 10, 0.8);
+  outline: 0 none;
+}
+
+.Contact-information {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.Contact-box {
+  width: 90%;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.Contact-item {
+  vertical-align: middle;
+  position: relative;
+  margin: 10px 0;
+}
+
+.Contact-image {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  background-color: #f1f1f1;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.Contact-description {
+  display: inline-block;
+  position: absolute;
+  top: 30%;
+}
+
+.Map {
+  background-image: url(/cumputer.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.Footer {
+  width: 100%;
+  background-color: #333;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.Footer-iconsLicence {
+  width: 80%;
+  max-width: 800px;
+}
+
+.Footer-link {
+  text-decoration: none;
+  color: #dd3d27;
+  font-family: "Raleway", sans-serif;
+}
+
+.Author {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+@media screen and (min-width: 500px) {
+  .Navbar {
+    height: 15vh;
+  }
+
+  .Navbar-list {
+    height: 15vh;
+  }
+
+  .Portfolio-listItem {
+    width: 49.5%;
+  }
+
+  .Portfolio-listItem:nth-child(odd) {
+    margin-right: 1%;
+  }
+
+  .Portfolio-skillsItem {
+    float: left;
+    width: 45%;
+    margin: 10px;
+  }
+
+  .Contact-input {
+    width: 60%;
+  }
+
+  .Contact-button {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .Header-main {
+    top: 40vh;
+  }
+
+  .Header-mainTitle {
+    padding-right: 30px;
+    font-size: 2.5em;
+  }
+
+  .Header-mainDescription {
+    background-color: transparent;
+    line-height: 180%;
+  }
+
+  .Navbar-list {
+    height: 15vh;
+  }
+
+  .Navbar-listItem {
+    max-width: 190px;
+    transition: background-color 0.5s ease;
+  }
+
+  .Navbar-listItem:hover {
+    background-color: skyblue;
+  }
+
+  .Navbar-link:hover {
+    text-decoration: none;
+    color: #f3eef4;
+  }
+
+  .AboutMe-imageBorder {
+    float: left;
+    width: 40%;
+  }
+
+  .AboutMe-list {
+    float: left;
+    margin: 30px 0;
+    padding: 55px;
+    width: 60%;
+  }
+
+  .AboutMe-tweetImage {
+    margin-right: 20px;
+    float: left;
+    margin: 10px 20px 0 10px;
+  }
+
+  .AboutMe-tweetDescription {
+    float: left;
+    width: 85%;
+    margin-top: 5px;
+  }
+
+  .Portfolio-listItem {
+    width: 24%;
+    transition: box-shadow 0.5s ease;
+  }
+
+  .Portfolio-listItem:nth-child(even) {
+    margin-right: 1%;
+  }
+
+  .Portfolio-listItem:hover {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  .Portfolio-skillsItem {
+    float: left;
+    width: 22.4%;
+    margin: 10px;
+  }
+
+  .Contact-formSection {
+    width: 50%;
+    float: left;
+  }
+
+  .Contact-information {
+    width: 50%;
+    float: left;
+  }
+
+  .Contact-box {
+    margin-top: 2vh;
+  }
+}
